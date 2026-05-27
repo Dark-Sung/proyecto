@@ -47,7 +47,6 @@ class BancoGUI:
         self.root = root
         root.title("Banco")
         root.geometry("620x480")
-        # central content frame (single-window navigation)
         tk.Label(root, text="Banco", font=(None, 14, "bold")).pack(pady=8)
         self.content = tk.Frame(root)
         self.content.pack(fill="both", expand=True, padx=10, pady=6)
@@ -272,7 +271,6 @@ class AccountWindow:
         self.app = app
         self.cliente = cliente
         self.datos = load_all_data()
-        # use the app content frame (single-window)
         self.frame = tk.Frame(self.app.content)
         self.frame.pack(fill="both", expand=True)
 
@@ -281,11 +279,9 @@ class AccountWindow:
         self.update_balance()
         tk.Label(self.app.content, textvariable=self.saldo_var).pack(pady=6)
 
-        # content frame where submenus are shown (keeps a single ventana de cuenta)
         self.content = tk.Frame(self.app.content)
         self.content.pack(fill="both", expand=True, padx=10, pady=6)
 
-        # expose a top-like attribute for compatibility with modal dialogs
         self.top = self.app.root
         self.show_main_menu()
 
@@ -917,6 +913,4 @@ def main():
     app = BancoGUI(root)
     root.mainloop()
 
-
-if __name__ == "__main__":
-    main()
+main()
