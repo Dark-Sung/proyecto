@@ -1,0 +1,32 @@
+{
+    "12345678": {
+        "nombre": "carlos",
+        "apellidos": "monroy",
+        "documento": "12345678",
+        "telefono": "3023672626",
+        "correo": "monroycarlosv@gmail.com",
+        "contrasena": "leonel2311",
+        "disponible": 15000.0,
+        "cupo_credito": 500000.0
+    },
+    "123456789": {
+        "nombre": "fredo",
+        "apellidos": "godofredo",
+        "documento": "123456789",
+        "telefono": "3222222",
+        "correo": "joymar300@gmail.com",
+        "contrasena": "tula123",
+        "disponible": 19699465002.0,
+        "cupo_credito": 500000.0
+    },
+    "1016948840": {
+        "nombre": "Maria",
+        "apellidos": "Garcia",
+        "documento": "1016948840",
+        "telefono": "3122231470",
+        "correo": "mgarcia101@cuc.edu.co",
+        "contrasena": "12345m",
+        "disponible": 50000.0,
+        "cupo_credito": 500000.0
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "12345678": [
+        {
+            "nombre": "Ahorro principal",
+            "dinero": 50000.0,
+            "tasa": 0.05,
+            "ultimo_calculo": 1779358438.0658336
+        }
+    ],
+    "123456789": [
+        {
+            "nombre": "Ahorro principal",
+            "dinero": 299999999.0,
+            "tasa": 0.05,
+            "ultimo_calculo": 1779383080.050357
+        }
+    ],
+    "1016948840": [
+        {
+            "nombre": "Ahorro principal",
+            "dinero": 0.0,
+            "tasa": 0.05,
+            "ultimo_calculo": 1779399323.776511
+        }
+    ]
+}
