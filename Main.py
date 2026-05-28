@@ -89,10 +89,7 @@ def input_nonempty(prompt):
             continue
         return valor
 
-
-# Validadores estrictos y versiones con rango de los inputs
 import re
-
 
 def input_float(prompt, min_val=None, max_val=None):
     while True:
@@ -676,4 +673,5 @@ def main():
         else:
             print("Opción no válida.")
 
-main()
+if __name__ == "__main__":
+    main()
