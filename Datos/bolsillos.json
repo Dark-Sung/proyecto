@@ -4,6 +4,11 @@
             "nombre": "A",
             "dinero": 5000.0,
             "color": "Rojo"
+        },
+        {
+            "nombre": "b",
+            "dinero": 1000.0,
+            "color": "Azul"
         }
     ],
     "123456789": [
